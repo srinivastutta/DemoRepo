@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57" started-at="2018-09-10T21:08:55Z" finished-at="2018-09-10T21:08:55Z">
+  <suite name="Default suite" duration-ms="77" started-at="2018-09-10T21:16:11Z" finished-at="2018-09-10T21:16:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57" started-at="2018-09-10T21:08:55Z" finished-at="2018-09-10T21:08:55Z">
+    <test name="Default test" duration-ms="77" started-at="2018-09-10T21:16:11Z" finished-at="2018-09-10T21:16:11Z">
       <class name="com.qa.tests.LoginTest">
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest" duration-ms="19" started-at="2018-09-10T23:08:55Z" finished-at="2018-09-10T23:08:55Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest" duration-ms="24" started-at="2018-09-10T23:16:11Z" finished-at="2018-09-10T23:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="Logintest1()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest1" duration-ms="3" started-at="2018-09-10T23:08:55Z" finished-at="2018-09-10T23:08:55Z">
+        <test-method status="PASS" signature="Logintest1()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest1" duration-ms="3" started-at="2018-09-10T23:16:11Z" finished-at="2018-09-10T23:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest1 -->
-        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest2" duration-ms="5" started-at="2018-09-10T23:08:55Z" finished-at="2018-09-10T23:08:55Z">
+        <test-method status="FAIL" signature="Logintest2()[pri:0, instance:com.qa.tests.LoginTest@68be2bc2]" name="Logintest2" duration-ms="4" started-at="2018-09-10T23:16:11Z" finished-at="2018-09-10T23:16:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -26,7 +26,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.qa.tests.LoginTest.Logintest2(LoginTest.java:19)
+	at com.qa.tests.LoginTest.Logintest2(LoginTest.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
